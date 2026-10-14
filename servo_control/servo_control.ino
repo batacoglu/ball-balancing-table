@@ -15,7 +15,6 @@ void setup() {
   Serial.begin(115200);
   ServoX.attach(9);
   ServoY.attach(12);
-  // Start centered/flat
   ServoX.write((SERVO_X_MIN + SERVO_X_MAX) / 2.0);
   ServoY.write((SERVO_Y_MIN + SERVO_Y_MAX) / 2.0);
 }
